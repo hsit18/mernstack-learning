@@ -1,0 +1,40 @@
+body {
+    color: red;
+}
+
+div {
+    color: brown;
+}
+
+
+h1 {
+    color: green;
+}
+
+.heading {
+    color: blue;
+}
+
+#title {
+    color: pink;
+}
+
+body > div > div > p {
+    background-color: cyan;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+
+a:visited {
+    color: darkorange;
+}
+
+div.abc {
+    background: lightgray;
+}
