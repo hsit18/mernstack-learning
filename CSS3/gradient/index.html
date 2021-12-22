@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS gradient</title>
+    <style>
+        .gradient {
+            width: 400px;
+            height: 300px;
+            background: red;
+            background: -webkit-linear-gradient(red, yellow);
+            background: -ms-linear-gradient(red, yellow);
+            background: linear-gradient(red, yellow);
+        }
+
+        .radial-gradient {
+            width: 400px;
+            height: 300px;
+            background: red;
+            background: -webkit-radial-gradient(red, yellow, lime);
+            background: -ms-radial-gradient(red, yellow, lime);
+            background: radial-gradient(red, yellow, lime);
+        }
+
+        .transperancy-gradient {
+            width: 400px;
+            height: 300px;
+            background: url("sky.jpg");
+            background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("sky.jpg");
+            background: -ms-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("sky.jpg");
+
+            background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("sky.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient"></div>
+    <div class="radial-gradient"></div>
+    <div class="transperancy-gradient"></div>
+
+</body>
+
+</html>
