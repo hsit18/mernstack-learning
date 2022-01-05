@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Normal Layout</title>
+    <style>
+        body {
+            width: 500px;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        p {
+            background: green;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .block {
+            display: block;
+        }
+
+        .inline {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Normal Flow</h1>
+
+    <div>
+        <p>Block</p>
+        <p>The elements that appear one below the other are described as block elements</p>
+        <p class="block">Element 1</p>
+        <p class="block">Element 2</p>
+        <p class="block">Element 3</p>
+    </div>
+
+    <div class="inline">
+        <p>Inline Elements</p>
+        <p>Appear one beside the other, like the individual words in a paragraph.</p>
+        <p class="inline">Element 1</p>
+        <p class="inline">Element 2</p>
+        <p class="inline">Element 3</p>
+    </div>
+</body>
+
+</html>

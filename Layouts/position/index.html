@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position layout</title>
+    <style>
+        div {
+            border: 2px solid black;
+            margin: 5px;
+            width: 100px;
+            padding: 5px;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .fixed {
+            position: fixed;
+        }
+
+        .sticky {
+            position: sticky;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="static">
+        <p>I am static</p>
+    </div>
+
+    <div class="relative">
+        <p>I am relative</p>
+    </div>
+
+    <div class="absolute">
+        <p>I am absolute</p>
+    </div>
+
+    <div class="fixed">
+        <p>I am fixed</p>
+    </div>
+
+    <div class="sticky">
+        <p>I am sticky</p>
+    </div>
+</body>
+
+</html>

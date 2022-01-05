@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float Layouts</title>
+    <style>
+        div {
+            margin: 10px;
+            padding: 5px;
+            font-size: 2rem;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .none {
+            float: none;
+        }
+
+        .inherit {
+            float: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <p>
+            <img class="left"
+                src="https://user-images.githubusercontent.com/56690856/83184553-3dcfcd00-a147-11ea-985e-16403f28d631.png"
+                alt="Left float">
+            This is left float.
+        </p>
+    </div>
+    <div class="right">
+        <p>
+            <img class="right"
+                src="https://user-images.githubusercontent.com/56690856/83184553-3dcfcd00-a147-11ea-985e-16403f28d631.png"
+                alt="Right float">
+        <p>
+            This is right float.
+        </p>
+    </div>
+    <div class="none">
+        <p>
+            <img class="none"
+                src="https://user-images.githubusercontent.com/56690856/83184553-3dcfcd00-a147-11ea-985e-16403f28d631.png"
+                alt="None Float">
+        <p>
+            This is none float.
+        </p>
+    </div>
+    <div class="inherit">
+        <p>
+            <img class="inherit"
+                src="https://user-images.githubusercontent.com/56690856/83184553-3dcfcd00-a147-11ea-985e-16403f28d631.png"
+                alt="Inherit Float">
+        <p>
+            This is inherit float.
+        </p>
+    </div>
+</body>
+
+</html>
