@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Grid- justify-content</title>
+    <style>
+      .grid-container1 {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        grid-gap: 10px;
+        background-color: #2196f3;
+        padding: 10px;
+      }
+
+      .grid-container2 {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        grid-gap: 10px;
+        background-color: red;
+        padding: 10px;
+      }
+
+      .grid-container3 {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        grid-gap: 10px;
+        background-color: green;
+        padding: 10px;
+      }
+
+      .grid-container4 {
+        display: grid;
+        justify-content: end;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        grid-gap: 10px;
+        background-color: violet;
+        padding: 10px;
+      }
+
+      .grid-container5 {
+        display: grid;
+        justify-content: start;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        grid-gap: 10px;
+        background-color: gray;
+        padding: 10px;
+      }
+
+      .grid-container6 {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+        grid-gap: 10px;
+        background-color: blue;
+        padding: 10px;
+      }
+
+      .num {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <b>CONTAINER WITH SPACE-EVENLY VALUE</b>
+    <div class="grid-container1">
+      <div class="num">1</div>
+      <div class="num">2</div>
+      <div class="num">3</div>
+    </div>
+
+    <b>CONTAINER WITH SPACE-AROUND VALUE</b>
+    <div class="grid-container2">
+      <div class="num">1</div>
+      <div class="num">2</div>
+      <div class="num">3</div>
+    </div>
+
+    <b>CONTAINER WITH SPACE-BETWEEN VALUE</b>
+    <div class="grid-container3">
+      <div class="num">1</div>
+      <div class="num">2</div>
+      <div class="num">3</div>
+    </div>
+
+    <b>CONTAINER WITH END VALUE</b>
+    <div class="grid-container4">
+      <div class="num">1</div>
+      <div class="num">2</div>
+      <div class="num">3</div>
+    </div>
+
+    <b>CONTAINER WITH START VALUE</b>
+    <div class="grid-container5">
+      <div class="num">1</div>
+      <div class="num">2</div>
+      <div class="num">3</div>
+    </div>
+
+    <b>CONTAINER WITH CENTER VALUE</b>
+    <div class="grid-container6">
+      <div class="num">1</div>
+      <div class="num">2</div>
+      <div class="num">3</div>
+    </div>
+  </body>
+</html>
