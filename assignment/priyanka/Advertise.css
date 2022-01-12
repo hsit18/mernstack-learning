@@ -1,0 +1,15 @@
+body{
+    margin-left: 500px;
+}
+.div{
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+.rad{
+    border-radius: 4px;
+    width: 350px;
+    height: 20px;
+}
+.dt{
+    width: 200px;
+}
