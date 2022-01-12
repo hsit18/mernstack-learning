@@ -1,0 +1,25 @@
+$primary-color: seashell;
+$primary-bg: darkslategrey;
+
+body {
+  color: $primary-color;
+  background: $primary-bg;
+}
+
+// Example 2
+
+$fs: 30px;
+$pd: 100px 350px;
+@mixin font_style() {
+  font-family: sans-serif;
+  font-size: $fs;
+  color: blue;
+}
+@mixin list_style($size, $color) {
+  font-size: $size;
+  color: $color;
+}
+
+body {
+  @include list_style(16px, black);
+}

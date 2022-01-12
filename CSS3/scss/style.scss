@@ -1,0 +1,20 @@
+@import './index.scss';
+
+$abc: Helvetica, sans-serif;
+$primary-color: #333;
+$bg-red: red;
+
+body {
+  font: 100% $abc;
+  color: $primary-color;
+  @include list_style(16px, black)
+}
+
+#d1 {
+  li {
+    background: $bg-red;
+    &.abc {
+        background: green;
+    }
+  }
+}
