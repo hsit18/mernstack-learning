@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            height: 100vh;
+            align-items: center;
+            
+            
+        }
+        .grid-items{
+            
+            background-image: radial-gradient(circle, blue 2%, #b80bec 85%);
+            padding: 60px;
+           justify-items: center;
+            grid-row: 30%;
+            grid-column: 30%;
+            text-align: center;
+            font-size: 100px;
+            color: white;
+            border-radius: 2%;
+        }
+        .grid-items:hover{
+            color: red;
+            box-shadow: 2px 3px red;
+            opacity: 0.8;
+            
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+      <div class="grid-items">O</div>
+      <div class="grid-items">X</div>
+      <div class="grid-items">O</div>
+      <div class="grid-items">X</div>
+      <div class="grid-items">O</div>
+      <div class="grid-items">X</div>
+      <div class="grid-items">O</div>
+      <div class="grid-items">X</div>
+      <div class="grid-items">O</div>
+    </div>
+    
+</body>
+</html>
