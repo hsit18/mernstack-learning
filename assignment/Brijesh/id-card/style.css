@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  background-image: radial-gradient(550px circle at 150px 20px, #0E94B0 55%, rgba(32, 171, 184, 0.925) 62%, 45%, transparent 50%), radial-gradient(850px circle at 74% 123%, #0E94B0 35%, rgba(21, 168, 182, 0.733) 42%, 35%, transparent 55%), radial-gradient(#0E94B0, #257f88);
+  width: 80%;
+  height: 70%;
+  margin: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.card {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #088e97), color-stop(20%, #a3eef5), color-stop(30%, white));
+  background: linear-gradient(180deg, #088e97 40%, #a3eef5 20%, white 30%);
+  width: 420px;
+  height: auto;
+  margin: 35px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  position: relative;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes example {
+  0% {
+    left: 0px;
+    top: -250px;
+  }
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes example {
+  0% {
+    left: 0px;
+    top: -250px;
+  }
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.profile {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.rounded-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  margin-bottom: 15px;
+}
+
+.stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+  text-transform: uppercase;
+  font-size: small;
+  text-align: center;
+}
+
+.posts {
+  justify-items: flex-end;
+  padding-right: 15px;
+}
+
+.follower {
+  padding-right: 15px;
+}
+
+.span {
+  padding-left: 5px;
+  font-size: 32px;
+  font-family: 'The Nautigal', cursive;
+}
+
+.profile p {
+  font-family: 'The Nautigal', cursive;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */
