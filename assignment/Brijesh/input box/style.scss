@@ -2,12 +2,9 @@
     margin: 0;
     padding: 0;
 }
-body{
-   
-   
-}
+
 .form-container{
-    padding: 60px;
+    padding: 2%;
     margin: 5%;
     background-color: rgba(152, 243, 67, 0.333);
    
@@ -31,8 +28,16 @@ input{
     padding: 10px;
     font-size: larger;
     border-radius: 5px;
+    color: rgb(255, 255, 255);
     background-color: rgb(105, 181, 243);
-   
+   cursor: pointer;
+}
+
+label{
+    font-size: 158%;
+    padding-left: 15px;
+    font-weight: bolder;
+    color: rgb(243, 58, 1);
 }
 input:hover{
     box-shadow: 1px 1px 4px 2px #637df0;
@@ -64,3 +69,14 @@ input:hover{
        padding-bottom: 25px;
    }
   }
+
+  @media only screen and (max-width: 940px) {
+    input{
+        width: 240px;
+        height:25px;
+        margin: 5px;
+    }
+    .container{
+        padding-bottom: 25px;
+    }
+   }
