@@ -1,40 +1,105 @@
-body {
-    color: red;
+/* 0 */
+* { 
+    color: orange;
+    margin: 0;
 }
 
+/* 1 */
 div {
+    color: palegreen;
+}
+
+/* 1 */
+p {
+    color: purple;
+}
+
+/* 1 + 10 = 11 */
+h1.heading {
+    color:teal;
+}
+
+/* 1 + 1 = 2 */
+div h1{
+    color: tomato;
+}
+
+/* 1 + 1 = 2 */
+div h1{
+    color: tomato;
+}
+
+/* 1 + 10 + 10 = 21 */
+h1.heading:nth-child(1) {
+    color: turquoise;
+}
+
+h1.heading:first-child {
+    color: lightseagreen;
+}
+
+h1.heading:last-child {
     color: brown;
 }
 
-
-h1 {
-    color: green;
+a:hover{
+    color: red;
+    text-decoration: none;
 }
 
-.heading {
+div p {
+    background: yellowgreen;
+}
+div > p {
+    background: turquoise;
+}
+
+div > section > p > section > p {
+    background: violet;
+}
+/* 100 + 1 = 101 */
+#vikas + p {
+    color: thistle !important;
+}
+
+#vikas + p {
+    color: red !important;
+}
+
+/* 
+100 students
+
+50 boys
+    10 - Agrade boys - green
+        vikas - red
+    20 - Bgrage boys - indigo
+    20 - remaining - blue
+
+50 girls - white
+
+
+students {
+    color: white;
+}
+
+boys {
     color: blue;
 }
 
-#title {
-    color: pink;
+Agrade-boys {
+    color: green;
+}
+Agrade-boys:last-child {
+    color: green;
 }
 
-body > div > div > p {
-    background-color: cyan;
+Bgrage-boys {
+    color: indigo;
 }
 
-a {
+#vikas{
     color: red;
-}
+} */
 
-a:hover {
-    color: darkolivegreen;
-}
-
-a:visited {
-    color: darkorange;
-}
-
-div.abc {
-    background: lightgray;
-}
+/* white: #ff0000
+black: #000000 */

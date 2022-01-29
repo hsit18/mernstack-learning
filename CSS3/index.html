@@ -7,17 +7,23 @@
     <!-- External Styles -->
     <link rel="stylesheet" href="styles.css">
     <!--Embedded Styles-->
-    <style>
+    <style type="text/css">
         body { background-color: YellowGreen; }
         h1 { color: #fff; }
+        #test {
+            color: red;
+        }
+        .abc {
+            color: green;
+        }
     </style>
 </head>
 
 <body>
     <!-- Inline Styles -->
-    <!-- <h1 style="color:red; font-size:30px;">This is a heading</h1> -->
-    <h1>This is a heading</h1>
-    
+    <h1 style="color:red; font-size:30px !important;">This is a heading</h1>
+    <h1 id="test">This is a heading</h1>
+    <p>hello</p>
 </body>
 
 </html>
