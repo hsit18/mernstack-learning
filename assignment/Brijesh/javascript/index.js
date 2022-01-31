@@ -69,20 +69,18 @@
  
 let arr_3 = [4, 6, 7];
 let arr_4 = [8, 1, 9];
-let a = [0];
-let b=0;
 
 for(var i = 0; i<arr_3.length; i++){
-    a = arr_3[i];
-}for(var j = 0; j<arr_4.length; j++){
-    b = arr_4[j];
-    }
-    console.log([a + b]);
+    arr_3[i] = arr_3[i] + (arr_4[i] || 0);
+}
 
+console.log(arr_3);
 
+let str1 = "javascript";
 
-
-
+for(var i = 0; i<str1.length; i++){
+    console.log(str1[i]);
+}
 
 // Exercise 7)
 

@@ -40,4 +40,3 @@ const arr = [10, 20, 30, 40];
 for(let i=0; i<arr.length; i++) {
     console.log(i, arr[i]); // i is index of array
 }
-
