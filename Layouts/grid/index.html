@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>CSS Grid</title>
     <style>
-        .main {
-            display: grid;
-            grid-template-rows: auto auto;
-            grid-template-columns: auto auto auto auto;
-            grid-gap: 10px;
-            background-color: blue;
-            padding: 10px;
-        }
+      .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        background-color: aliceblue;
+        /* grid-template-rows: auto auto;
+              grid-template-columns: auto auto auto auto;
+              grid-gap: 10px;
+              background-color: blue;
+              padding: 10px; */
+      }
 
-        .num {
-            background-color: lightblue;
-            text-align: center;
-            color: black;
-            padding: 10px 10px;
-            font-size: 30px;
-        }
-        .three {
-            grid-area: 2 / 1 / 4 / 3; /* row-start / col-start / row-end / col-end */
-        }
+      .num {
+        background-color: lightblue;
+        text-align: center;
+        color: black;
+        padding: 10px 10px;
+        font-size: 30px;
+      }
+
+      .one {
+        /* grid-column-start: 1;
+          grid-column-end: 3; */
+        grid-column: 1 / span 3;
+      }
+      /* .three {
+              grid-area: 2 / 1 / 4 / 3; /* row-start / col-start / row-end / col-end *
+          } */
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main">
-        <div class="num">One</div>
-        <div class="num">Two</div>
-        <div class="num three">Three</div>
-        <div class="num">Four</div>
-        <div class="num">Five</div>
-        <div class="num">Six</div>
-        <div class="num">Seven</div>
-        <div class="num">Eight</div>
-        <div class="num">Nine</div>
+      <div class="num one">One</div>
+      <div class="num">Two</div>
+      <div class="num three">Three</div>
+      <div class="num">Four</div>
+      <div class="num">Five</div>
+      <div class="num">Six</div>
+      <div class="num">Seven</div>
+      <div class="num">Eight</div>
+      <div class="num">Nine</div>
     </div>
-</body>
-
+  </body>
 </html>

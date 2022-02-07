@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Position</title>
     <style>
-        .box {
-            width: 400px;
-            height: 300px;
-            background: red;
-        }
+      .box1 {
+        width: 400px;
+        height: 300px;
+        background: red;
+        display: inline-block;
+        font-size: 30px;
+      }
+      .box2 {
+        width: 200px;
+        height: 150px;
+        display: inline-block;
+        background: green;
+        font-size: 30px;
+      }
+
+      .box3 {
+        width: 400px;
+        height: 300px;
+        display: inline-block;
+        background: blue;
+        font-size: 30px;
+      }
+      .container {
+        background-color: grey;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-</body>
-
+  <body>
+    <div>
+      <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+      </div>
+    </div>
+  </body>
 </html>

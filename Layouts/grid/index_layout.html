@@ -6,7 +6,7 @@
     <style>
       .wrapper {
         display: grid;
-        grid-template-columns: repeat(9, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: minmax(100px, auto);
         grid-template-areas:
           "hd hd hd hd   hd   hd   hd   hd   hd"
@@ -14,11 +14,11 @@
           "ft ft ft ft   ft   ft   ft   ft   ft";
       }
       .header {
-        grid-area: hd;
+        grid-area: header;
         background-color: coral;
       }
       .footer {
-        grid-area: ft;
+        grid-area: footer;
         background-color: coral;
       }
       .content {
@@ -26,13 +26,15 @@
         background-color: coral;
       }
       .sidebar {
-        grid-area: sd;
+        grid-area: sidebar;
         background-color: coral;
       }
     </style>
   </head>
 
   <body>
+
+    <div>Hello</div>
     <div class="wrapper">
       <div class="header">Header</div>
       <div class="sidebar">Sidebar</div>
