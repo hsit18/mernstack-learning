@@ -1,0 +1,34 @@
+body
+{
+    background-color: darkorange;
+}
+.xyz{
+    width:300px;
+    height: 575px;
+    background-color:black;
+    border-radius: 2%;
+    margin-left: 354px;
+    margin-top:69px;
+}
+input[type=text]
+{
+    text-align:right;
+    width:292px;
+    height: 200px;
+    border-radius:2%;
+    background-color:black;
+    color:darkgoldenrod;
+    font-size: 50px;
+    font-family: serif;
+}
+.faz
+{
+ width:70px;
+ height:70px;
+ background-color:black;
+ border-style: none;
+ border-radius: 2%;
+ font-size: 50px;
+ font-family: serif;
+ color: white;
+}
