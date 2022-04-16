@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,900&display=swap');
+ 
+:root{
+    --primary: #2eb086;
+    --dark: #313552;
+    --light: #f0f0f0;
+    --tertiary:#b8405e;
+    --pure: #ffffff;
+    --mix: #54bab9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;      
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav .left{
+    display:flex;
+}
+body{
+    font-family: "poppins", sans-serif;
+}
+header{
+    background-color:var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 79%);
+}
+header nav{
+    padding:0.8rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .left a {
+    color:var(--light);
+    text-decoration: none;
+    margin-right: 10PX;
+    font-size: 1rem; 
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+header nav .left a:hover{
+    font-size:1.1rem;
+    color: var(--tertiary);
+}
+
+.container{
+    width: 1200px;
+    margin:0px auto;
+    height: 800px;
+}
+
+.right{
+    color:var(--light);
+}
+.logo{
+    margin-right: 20px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    color:var(--primary);
+}
+h6{
+    color: var(--tertiary);
+    margin: -0.5rem 0 0.2rem 0;
+}
+h6:hover{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.hero .right h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: -0.5rem 0 0.5rem 0;
+    line-height: 1.2;
+}
+.hero .right{
+    padding: 10srem;
+    text-align: end;
+}
+.hero .left img{
+    transition:
+}
+.btn-primary{
+    padding:0.5rem 2rem;
+    font-size:1500;
+    font-weight: 700px;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+.btn-secondary{
+    padding: 0.5rem 2rem;
+    font-size:700;
+    border: 3px solid var(--primary);
+    border-radius: 4px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    background-color:transparent;
+    color: var(--primary);
+}
+.btn-secondary:hover{
+    font-size: 1.1rem;
+    background-color: var(--primary);
+    color: var(--dark);
+}
+.btn-primary:hover{
+    font-size: 1.1rem;
+    cursor: progress;
+}
+section{
+    padding: 3rem 0;
+}
+.wrapper{
+    display: flex;
+}
+.card{
+    padding: 2rem 2rem;
+    margin: 2rem;
+    position: relative;
+    background-color: var(--light);
+    box-shadow: 10px 10px 5px 0px var(--dark);
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: var(--dark);
+    font-size: 1.1rem;
+    color: var(--light);
+}
+.card h1::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--mix);
+}
+.card img {
+    position: absolute;
+    right:-25px;
+    top:-25px;
+}
+/*p{
+    margin: 0.5px 0;
+}*/
+.card1:hover{
+    cursor: pointer;
+    background-color: var(--dark);
+    font-size: 1.1rem;
+    color: var(--light);
+}
+.card1 h1::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--mix);
+}
+.card1{
+    padding: 2rem 2rem;
+    margin: 2rem;
+    position: relative;
+    background-color: var(--light);
+    box-shadow: 10px 10px 5px 0px var(--dark);
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+.sajeed{
+    display: flex;
+}
+.card5{
+    margin: -200px 40px 10px 60px;
+}
+.myself{
+    margin: -200px 40px 10px 60px;
+
+}
+img{
+    border-radius: 10px;
+}
